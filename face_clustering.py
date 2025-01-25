@@ -126,7 +126,7 @@ def main():
     Km_clusters = Km.fit_predict(faces.T)
 
     Km_acc = adjusted_rand_score(labels_true=labels, labels_pred=Km_clusters)
-    print(f"Kmeans clustering accuracy: {Km_acc * 100:.2f}%")
+    print(f"K-means clustering accuracy: {Km_acc * 100:.2f}%")
 
     # Downsample the faces for faster clustering
     downsampled_faces = downsampling(faces, num_faces, height, width, downsampling_factor=factor)

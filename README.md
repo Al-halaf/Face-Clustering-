@@ -56,5 +56,4 @@ The project processes face images stored in `allFaces.mat`, with clustering resu
 
 Feel free to explore and adapt this project for your own clustering tasks!
 
-more informatio about the algorithm is available here: 10.1109/CVPR.2003.1211332
-
+more informatio about the algorithm is available here: https://doi.ieeecomputersociety.org/10.1109/CVPR.2003.1211332
